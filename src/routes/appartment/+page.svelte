@@ -115,7 +115,7 @@
 	let selected;
 	function handleSubmit() {
 		let url =
-            PUBLIC_BASE_URL +
+            https://haldijoe.pythonanywhere.com +
             "/api/prediction/apartment?bfs_number=" +
             selected.id +
             "&area=" +
